@@ -1,7 +1,7 @@
 import React from "react";
 import "./cta.css";
 
-const CTA = () => (
+const Cta = () => (
   <div className='gpt3__cta'>
     <div className='gpt3__cta-content'>
       <p>Request Early Access to Get Started</p>
@@ -13,4 +13,4 @@ const CTA = () => (
   </div>
 );
 
-export default CTA;
+export default Cta;

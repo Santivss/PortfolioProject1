@@ -9,7 +9,7 @@ import {
   WhatGPT3,
 } from "./containers";
 
-import { Brand, CTA, Navbar } from "./components";
+import { Brand, Cta, Navbar } from "./components";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <WhatGPT3 />
       <Features />
       <Possibility />
-      <CTA />
+      <Cta />
       <Blog />
       <Footer />
     </div>
