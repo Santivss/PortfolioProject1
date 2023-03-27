@@ -74,6 +74,8 @@
 
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+
+  transition: 200ms ease;
 }
 
 .gpt3__header-content__people {
@@ -110,6 +112,17 @@
 
 .gpt3__header-image img {
   width: 100%;
+}
+
+/* ---------------Medias--------------- */
+
+@media screen and (min-width: 1050px) {
+  .gpt3__header-content__input button:hover {
+    background: var(--color-hover-subText);
+  }
+  .gpt3__header-content__input input:focus {
+    background-color: var(--color-blog);
+  }
 }
 
 @media screen and (max-width: 1050px) {

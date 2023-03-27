@@ -54,6 +54,15 @@
   outline: none;
   cursor: pointer;
   min-width: 150px;
+  transition: 400ms ease;
+}
+
+/* -----------Medias----------- */
+@media screen and (min-width: 650px) {
+  .gpt3__cta-btn button:hover {
+    background-color: rgb(224, 224, 224);
+    color: rgb(39, 39, 39);
+  }
 }
 
 @media screen and (max-width: 650px) {

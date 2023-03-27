@@ -42,6 +42,10 @@
   word-spacing: 2px;
 }
 
+.gpt3__footer-btn {
+  transition: 200ms ease;
+}
+
 .gpt3__footer-links {
   display: flex;
   justify-content: space-between;
@@ -113,6 +117,17 @@
   font-family: var(--font-family);
   line-height: 15px;
   color: #fff;
+}
+/* -----------Media----------- */
+
+@media screen and (min-width: 1024px) {
+  .gpt3__footer-btn:hover {
+    background-color: var(--color-blog);
+  }
+
+  .gpt3__footer-links p:hover {
+    color: var(--color-hover-text);
+  }
 }
 
 @media screen and (max-width: 850px) {
